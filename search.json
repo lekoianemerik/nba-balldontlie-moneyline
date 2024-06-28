@@ -28,7 +28,19 @@
     "href": "02_data.html",
     "title": "data",
     "section": "",
-    "text": "We will explore \\(5\\) separate datasets: - players’ data - teams’ data - games’ data - players’ stats (basic) per games - players’ stats (advanced) per games",
+    "text": "We obtained the data for \\(2021\\), \\(2022\\) and \\(2023\\) seasons using the API. We will explore \\(5\\) separate datasets: 1. players’ data 2. teams’ data 3. games’ data 4. players’ stats (basic) per games 5. players’ stats (advanced) per games",
+    "crumbs": [
+      "Home",
+      "Introduction",
+      "data"
+    ]
+  },
+  {
+    "objectID": "02_data.html#players-data",
+    "href": "02_data.html#players-data",
+    "title": "data",
+    "section": "1. Players’ Data",
+    "text": "1. Players’ Data\ntable:",
     "crumbs": [
       "Home",
       "Introduction",
