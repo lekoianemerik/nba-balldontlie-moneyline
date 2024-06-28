@@ -188,14 +188,8 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#players-data" id="toc-players-data" class="nav-link active" data-scroll-target="#players-data">1. Players’ Data</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -219,13 +213,55 @@ window.Quarto = {
 </header>
 
 
-<p>We obtained the data for <span class="math inline">\(2021\)</span>, <span class="math inline">\(2022\)</span> and <span class="math inline">\(2023\)</span> seasons using the API. We will explore <span class="math inline">\(5\)</span> separate datasets: 1. players’ data 2. teams’ data 3. games’ data 4. players’ stats (basic) per games 5. players’ stats (advanced) per games</p>
-<section id="players-data" class="level2">
-<h2 class="anchored" data-anchor-id="players-data">1. Players’ Data</h2>
-<p>table:</p>
+<p>We obtained the data for <span class="math inline">\(2021\)</span>, <span class="math inline">\(2022\)</span> and <span class="math inline">\(2023\)</span> seasons using the API. The base data are the player statistics for each individual game. Given a player - game combination, we have the following fields available:</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Statistic</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: right;">Example Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">MIN</td>
+<td style="text-align: left;">Minutes a player was on court</td>
+<td style="text-align: right;">26.03</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FGM</td>
+<td style="text-align: left;">Made field goals (2pt)</td>
+<td style="text-align: right;">18</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FGA</td>
+<td style="text-align: left;">Attempted field goals (2pt)</td>
+<td style="text-align: right;">6</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FG_PCT</td>
+<td style="text-align: left;">Percentage of successful field goals (2pt)</td>
+<td style="text-align: right;">0.33</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FG3M</td>
+<td style="text-align: left;">Made field goals (3pt)</td>
+<td style="text-align: right;">12</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">FG3A</td>
+<td style="text-align: left;">Attempted field goals (3pt)</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">FG3_PCT</td>
+<td style="text-align: left;">Percentage of successful field goals (3pt)</td>
+<td style="text-align: right;">0.25</td>
+</tr>
+</tbody>
+</table>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

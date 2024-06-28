@@ -28,19 +28,7 @@
     "href": "02_data.html",
     "title": "data",
     "section": "",
-    "text": "We obtained the data for \\(2021\\), \\(2022\\) and \\(2023\\) seasons using the API. We will explore \\(5\\) separate datasets: 1. players’ data 2. teams’ data 3. games’ data 4. players’ stats (basic) per games 5. players’ stats (advanced) per games",
-    "crumbs": [
-      "Home",
-      "Introduction",
-      "data"
-    ]
-  },
-  {
-    "objectID": "02_data.html#players-data",
-    "href": "02_data.html#players-data",
-    "title": "data",
-    "section": "1. Players’ Data",
-    "text": "1. Players’ Data\ntable:",
+    "text": "We obtained the data for \\(2021\\), \\(2022\\) and \\(2023\\) seasons using the API. The base data are the player statistics for each individual game. Given a player - game combination, we have the following fields available:\n\n\n\nStatistic\nDescription\nExample Value\n\n\n\n\nMIN\nMinutes a player was on court\n26.03\n\n\nFGM\nMade field goals (2pt)\n18\n\n\nFGA\nAttempted field goals (2pt)\n6\n\n\nFG_PCT\nPercentage of successful field goals (2pt)\n0.33\n\n\nFG3M\nMade field goals (3pt)\n12\n\n\nFG3A\nAttempted field goals (3pt)\n3\n\n\nFG3_PCT\nPercentage of successful field goals (3pt)\n0.25",
     "crumbs": [
       "Home",
       "Introduction",
