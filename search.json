@@ -4,13 +4,23 @@
     "href": "index.html",
     "title": "NBA-balldontlie-moneyline",
     "section": "",
-    "text": "Welcome to the website of the nba-balldontlie-moneyline project! The goal of this project is to explore the balldontlie API data and its usefulness in predicting the outright winners of NBA games (i.e. the moneyline in betting terms).\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to the website of the nba-balldontlie-moneyline project! The goal of this project is to explore the balldontlie API data and its usefulness in predicting the outright winners of NBA games (i.e. the moneyline in betting terms).\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.",
+    "crumbs": [
+      "Home",
+      "Introduction",
+      "NBA-balldontlie-moneyline"
+    ]
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "About this site",
+    "crumbs": [
+      "Home",
+      "Introduction",
+      "About"
+    ]
   }
 ]
